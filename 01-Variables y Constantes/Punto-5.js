@@ -3,7 +3,6 @@
  * palabra en mayúsculas.
  */
 
-
 let 
     mensaje = 'EsTa NoChE No Me EsPeReN En La CaSa!';
     console.log(mensaje.length);
