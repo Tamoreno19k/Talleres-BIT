@@ -10,11 +10,11 @@ let
     cover = 7;
     
 if (genero == 'M') {
-      console.log(`Tu cover es de:$`, cover+=2);  
+      alert(`${nombre} tu cover es de:$`, cover+=2); 
 }
 else if (genero == 'F') {
-    console.log(`Tu cover es de:$`, cover+-2);  
+    console.log(`${nombre} tu cover es de:$`, cover+-2);  
 }
 else { 
-    console.log(`Tu cover es de:$`, cover);
+    console.log(`${nombre} tu cover es de:$`, cover);
 }
