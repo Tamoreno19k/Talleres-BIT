@@ -12,27 +12,11 @@ let products = [
     { nombre: "Cebolla", precio: 0, cantidad: 10 },
     { nombre: "Naranjas", precio: 12, cantidad: 10 },
 ];
-//1
-// for (let i = 0; i < products.length; i++) {
-//      if (products[i].precio > 0 && products[i].cantidad <=5) {
-//         console.log(products[i].nombre);
-//      };   
-// }
-//2
-Lista = [{
-    precio; precio[i]
-    cantidad:
-}];
-suma = 0;
-for (let i = 0; i < products.length; i++) {
-    if (products[i].precio > 0 && products[i].cantidad > 0)
-        Lista.push(products[i].precio && products[i].cantidad)
-}
-console.log(Lista);
-// Medades.forEach(function(Medades){
-//     sumaPM += Medades
-// });
-// let promedioM = sumaPM / Medades.length
-// console.log(promedioM);
 
+1
+for (let i = 0; i < products.length; i++) {
+     if (products[i].precio > 0 && products[i].cantidad <=5) {
+        console.log(products[i].nombre);
+     };   
+}
 
