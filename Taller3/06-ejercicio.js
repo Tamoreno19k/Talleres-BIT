@@ -2,30 +2,14 @@
 
 // Dada una matriz de unos y ceros, convierta el valor binario equivalente a un número entero.
 
-// Ejemplos:
 
-Entrada: [0, 0, 0, 1]
-Salida :  1
-
-Entrada: [0, 0, 1, 0]
-Salida :  2
-
-Entrada: [0, 1, 0, 1]
-Salida :  5
-
-Entrada: [1, 0, 0, 1]
-Salida :  9
-
-Entrada: [0, 0, 1, 0]
-Salida :  2
-
-Entrada: [0, 1, 1, 0]
-Salida :  6
-
-Entrada: [1, 1, 1, 1]
-Salida :  15
-
-Entrada: [1, 0, 1, 1]
-Salida :  11.
-
-//https://ed.team/blog/como-convertir-un-numero-binario-en-decimal
+function binarioAEntero(binario) {
+    let entero = 0;
+    for (let i = 0; i < binario.length; i++) {
+      entero += binario[i] * Math.pow(2, binario.length - 1 - i);
+    }
+    return entero;
+  }
+  
+  const binario = [1, 0, 1, 1];
+  console.log (binarioAEntero(binario));
